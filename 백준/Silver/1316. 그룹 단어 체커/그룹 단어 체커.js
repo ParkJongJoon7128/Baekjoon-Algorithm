@@ -11,7 +11,7 @@ let word;
 
 for (let i = 1; i <= N; i++) {
   word = input[i];
-  for (let j = 0; j < word.length - 1; j++) {
+  for (let j = 0; j < word.length; j++) {
     if (word[j] !== word[j + 1] && !!word.slice(j + 1).includes(word[j])) {
       count--;
       break;
