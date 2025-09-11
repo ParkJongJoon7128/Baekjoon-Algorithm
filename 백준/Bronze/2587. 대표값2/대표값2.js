@@ -17,7 +17,7 @@ for (let j = 0; j < 5; j++) {
   sum += arr[j];
 }
 
-const avg = Math.floor(sum / arr.length);
+const avg = sum / arr.length;
 const mid = arr[Math.floor(arr.length / 2)];
 
 console.log(avg);
