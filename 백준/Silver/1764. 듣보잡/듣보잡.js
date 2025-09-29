@@ -30,6 +30,4 @@ for (let a of arr2) {
 result.sort();
 
 console.log(count);
-for (let r of result) {
-  console.log(r);
-}
+console.log(result.join("\n"));
